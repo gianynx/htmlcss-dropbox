@@ -8,11 +8,12 @@
 }
 
 :root {
-    --bg_color: #b4d0e7;
+    --bg_color: #ffffff;
     --btn_color: #0061ff;
     --hero_color: #b4d0e7;
     --dark_color: #000000;
     --b_b_h: #e7e1d9;
+    --hover_color: #f2eee8;
 }
 
 html {
@@ -29,6 +30,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 header {
@@ -38,8 +40,41 @@ header {
     height: 5rem;
     z-index: 1000;
     border-bottom: 2px solid var(--b_b_h);
+    background-color: var(--bg_color);
 }
 
 .list {
     list-style: none;
+}
+
+.a_item {
+    text-decoration: none;
+    color: var(--dark_color);
+}
+
+.img_logo {
+    width: 100%;
+}
+
+.li_item {
+    height: 5rem;
+    padding: 0 1rem 0;
+}
+
+.li_item_h:hover {
+    border-bottom: 3px solid grey;
+}
+
+.li_item_h2:hover {
+    background-color: var(--hover_color);
+}
+
+.btn {
+    background-color: var(--btn_color);
+    padding: 4px 14px;
+    border-style: none;
+}
+
+.a_btn {
+    color: var(--bg_color);
 }
