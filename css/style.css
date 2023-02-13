@@ -13,3 +13,7 @@
     --hero_color: #b4d0e7;
     --dark_color: #000000;
 }
+
+html {
+    scroll-behavior: smooth;
+}
