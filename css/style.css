@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif;
 }
 
 :root {
@@ -14,10 +13,15 @@
     --dark_color: #000000;
     --b_b_h: #e7e1d9;
     --hover_color: #f2eee8;
+    --hover_btn: #0057e5;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .grid {
@@ -81,6 +85,17 @@ header {
 
 /*CSS main*/
 
+.flex_hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    padding-top: 5rem;
+}
+
 #hero {
     background-color: var(--hero_color);
     min-height: 85vh;
@@ -89,4 +104,33 @@ header {
 .container {
     max-width: 75rem;
     margin: 0 auto;
+    padding: 1rem;
+}
+
+.m_t {
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.hero_left {
+    width: 33%;
+}
+
+.p_btn {
+    padding: 9px 15px;
+}
+
+.btn_hover:hover {
+    background-color: var(--hover_btn);
+}
+
+.font_div {
+    font-size: 13px;
+}
+
+.hero_right {
+    width: 67%;
 }
