@@ -132,6 +132,7 @@ h1 {
 
 .hero_right {
     width: 67%;
+    position: relative;
 }
 
 .arrow {
@@ -141,7 +142,7 @@ h1 {
 }
 
 #jumbo {
-    width: 100%;
-    position: relative;
-    bottom: -50px;
+    width: 113%;
+    position: absolute;
+    top: 0;
 }
