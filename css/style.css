@@ -1,0 +1,14 @@
+/*CSS general*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg_color: #b4d0e7;
+    --btn_color: #0061ff;
+    --hero_color: #b4d0e7;
+    --dark_color: #000000;
+}
