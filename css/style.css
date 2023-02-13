@@ -12,6 +12,7 @@
     --btn_color: #0061ff;
     --hero_color: #b4d0e7;
     --dark_color: #000000;
+    --b_b_h: #e7e1d9;
 }
 
 html {
@@ -20,4 +21,25 @@ html {
 
 .grid {
     border: 1px solid black;
+}
+
+/*CSS header*/
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    z-index: 1000;
+    border-bottom: 2px solid var(--b_b_h);
+}
+
+.list {
+    list-style: none;
 }
