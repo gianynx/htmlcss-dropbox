@@ -199,3 +199,29 @@ footer {
 .text_decoration:hover {
     text-decoration: underline;
 }
+
+.container_fb {
+    max-width: 73rem;
+    margin: 0 auto;
+}
+
+.m_t_footer {
+    margin-top: 5rem;
+}
+
+.div_fb {
+    width: 8rem;
+    height: 5rem;
+    border-top: 2px solid var(--bg_color);
+}
+
+.icon_earth {
+    color: var(--bg_color);
+}
+
+select {
+    background-color: var(--dark_color);
+    color: var(--bg_color);
+    border-style: none;
+    margin-top: 2rem;
+}
