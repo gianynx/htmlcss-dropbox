@@ -89,7 +89,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
 }
 
 main {
@@ -98,7 +97,7 @@ main {
 
 #hero {
     background-color: var(--hero_color);
-    min-height: 85vh;
+    max-height: 110vh;
 }
 
 .container {
@@ -133,4 +132,16 @@ h1 {
 
 .hero_right {
     width: 67%;
+}
+
+.arrow {
+    font-size: 50px;
+    margin-top: 5rem;
+    color: var(--dark_color);
+}
+
+#jumbo {
+    width: 100%;
+    position: relative;
+    bottom: -50px;
 }
