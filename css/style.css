@@ -66,11 +66,15 @@ header {
 }
 
 .li_item_h:hover {
+    background-color: var(--hover_color) ;
+}
+
+.li_item_h1:hover {
     border-bottom: 3px solid grey;
 }
 
 .li_item_h2:hover {
-    background-color: var(--hover_color);
+    background-color: var(--hover_btn);
 }
 
 .btn {
@@ -155,4 +159,43 @@ h1 {
 
 .m_b_section {
     margin-bottom: 10rem;
+}
+
+/*CSS footer*/
+
+.flex_footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+footer {
+    background-color: var(--dark_color);
+}
+
+.li_footer {
+    text-decoration: none;
+    margin-top: 4rem;
+}
+
+.h3_footer {
+    color: var(--bg_color);
+}
+
+.text_decoration {
+    text-decoration: none;
+    color: var(--bg_color);
+}
+
+.p_h3 {
+    padding: 18px 0 18px 0;
+}
+
+.p_li {
+    padding: 10px 0 10px 0;
+}
+
+.text_decoration:hover {
+    text-decoration: underline;
 }
