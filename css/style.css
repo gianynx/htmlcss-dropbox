@@ -85,6 +85,18 @@ header {
 
 /*CSS main*/
 
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.small_container {
+    max-width: 62.5rem;
+    margin: 0 auto;
+    padding: 1 rem;
+}
+
 .flex_hero {
     display: flex;
     flex-direction: row;
@@ -98,12 +110,6 @@ main {
 #hero {
     background-color: var(--hero_color);
     max-height: 110vh;
-}
-
-.container {
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 1rem;
 }
 
 .m_t {
@@ -145,4 +151,8 @@ h1 {
     width: 113%;
     position: absolute;
     top: 0;
+}
+
+.m_b_section {
+    margin-bottom: 10rem;
 }
