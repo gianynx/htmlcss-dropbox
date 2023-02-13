@@ -78,3 +78,15 @@ header {
 .a_btn {
     color: var(--bg_color);
 }
+
+/*CSS main*/
+
+#hero {
+    background-color: var(--hero_color);
+    min-height: 85vh;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
