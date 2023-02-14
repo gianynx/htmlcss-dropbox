@@ -9,11 +9,14 @@
 :root {
     --bg_color: #ffffff;
     --btn_color: #0061ff;
+    --btn_color_2: #8d8d8d;
     --hero_color: #b4d0e7;
     --dark_color: #000000;
     --b_b_h: #e7e1d9;
     --hover_color: #f2eee8;
     --hover_btn: #0057e5;
+    --grey_label: #dfdfe1;
+    --grey_table: #dfdfe1;
 }
 
 html {
@@ -194,7 +197,7 @@ h1 {
     width: 25px;
     background-color: var(--bg_color);
     border-radius: 50%;
-    border: 2px solid grey;
+    border: 2px solid var(--grey_label);
 }
 
 /* On mouse-over, add a grey background color */
@@ -231,12 +234,68 @@ h1 {
 
 .flex_card {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 9px 0 9px;
 }
 
 .card {
     width: calc(100% / 3);
+    border: 2px solid var(--grey_table);
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+.flex_partner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.partner_left {
+    width: 65%;
+}
+
+#partner {
+    width: 100%;
+}
+
+.partner_right {
+    width: 27%;
+}
+
+.btn_partner {
+    background-color: var(--bg_color);
+    border: 2px solid var(--btn_color_2);
+    padding: 10px 15px;
+}
+
+.btn_partner:hover {
+    background-color: var(--hover_color);
+}
+
+.a_btn_partner {
+    color: var(--btn_color_2);
+}
+
+.m_t_2 {
+    margin-top: 1.5rem;
+}
+
+.m_t_3 {
+    margin-top: 2rem;
+}
+
+.m_t_4 {
+    margin-top: 5rem;
+}
+
+.m_r {
+    margin-right: 1.5rem;
 }
 
 /*CSS footer*/
