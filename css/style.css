@@ -27,6 +27,7 @@
     --clients_7: #b4d0e7;
     --clients_8: #0d2481;
     --clients_9: #ffd830;
+    --line: #eaeaeb;
 }
 
 html {
@@ -386,6 +387,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 #square_1 {
@@ -408,20 +410,39 @@ h1 {
     background-color: var(--clients_5);
 }
 
-#square_6 {
-    background-color: var(--clients_5);
+.content_square_5 {
+    margin: 2.5rem 2.5rem;
 }
 
-#square_7 {
+#fifth_img_clients {
+    width: 50%;
+}
+
+.line {
+    width: 6rem;
+    height: 4px;
+    border-bottom: 2px solid grey;
+    margin-top: ;
+}
+
+.font_square_5 {
+    font-size: 12px;
+}
+
+#square_6 {
     background-color: var(--clients_6);
 }
 
-#square_8 {
+#square_7 {
     background-color: var(--clients_7);
 }
 
-#square_9 {
+#square_8 {
     background-color: var(--clients_8);
+}
+
+#square_9 {
+    background-color: var(--clients_9);
 }
 
 /*CSS footer*/
