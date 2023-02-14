@@ -240,12 +240,13 @@ h1 {
     padding: 9px 0 9px;
 }
 
-.flex_card_2 {
+.flex_card_column {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 9px 0 9px;
+    flex-direction: column;
+}
+
+.flex_direction {
+    flex-direction: column;
 }
 
 .card {
