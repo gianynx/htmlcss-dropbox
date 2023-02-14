@@ -240,6 +240,14 @@ h1 {
     padding: 9px 0 9px;
 }
 
+.flex_card_2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 9px 0 9px;
+}
+
 .card {
     width: calc(100% / 3);
     border: 2px solid var(--grey_table);
