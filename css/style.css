@@ -232,26 +232,25 @@ h1 {
     background: var(--bg_color);
 }
 
-.flex_card {
+.flex_planes {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 9px 0 9px;
+    justify-content: space-between;
 }
 
-.flex_card_column {
+.column {
     display: flex;
     flex-direction: column;
-}
-
-.card {
-    width: calc(100% / 3);
-    border: 2px solid var(--grey_table);
+    align-content: flex-start;
 }
 
 .fa-solid {
     margin-right: 5px;
+}
+
+.planes {
+    width: 30%;
+    border: 2px solid var(--grey_table);
 }
 
 .flex_partner {
