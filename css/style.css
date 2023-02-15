@@ -662,6 +662,10 @@ summary {
     font-weight: bold;
 }
 
+summary:hover {
+    background-color: var(--hover_color);
+}
+
 summary:before {
     content: '\27A3';
     border-width: .4rem;
