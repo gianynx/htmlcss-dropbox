@@ -270,23 +270,59 @@ h1 {
 
 .flex_planes {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.column {
+.plane {
+    width: 30%;
+}
+
+.flex_plane {
     display: flex;
-    flex-direction: column;
-    align-content: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+.flex_column {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2.5rem 2rem;
+}
+
+.border {
+    border: 2px solid grey;
 }
 
 .fa-solid {
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
-.planes {
-    width: 30%;
-    border: 2px solid var(--grey_table);
+.m_b {
+    margin-bottom: 1rem;
+}
+
+.m_b_2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.m_b_2::before {
+    content: "\20AC";
+}
+
+.month {
+    color: grey;
+}
+
+.m_t_3 {
+    margin-top: 2rem;
+}
+
+.display {
+    display: inline-block;
 }
 
 .flex_partner {
