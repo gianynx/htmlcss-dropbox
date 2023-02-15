@@ -15,6 +15,7 @@
     --b_b_h: #e7e1d9;
     --hover_color: #f2eee8;
     --hover_btn: #0057e5;
+    --hover_client: #d2e9ce;
     --grey_label: #dfdfe1;
     --grey_table: #dfdfe1;
     --grey_planes: #e9e9ea;
@@ -528,6 +529,10 @@ h1 {
     width: calc(100% / 2);
     height: calc(50vw / 3);
     position: relative;
+}
+
+.square_2:hover {
+    border: 10px solid var(--hover_client);
 }
 
 .img_clients {
