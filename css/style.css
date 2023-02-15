@@ -272,7 +272,7 @@ h1 {
 }
 
 .plane {
-    width: 30%;
+    width: calc(100% / 3);
 }
 
 .flex_plane {
@@ -286,6 +286,7 @@ h1 {
 .flex_column {
     display: flex;
     flex-flow: column wrap;
+    justify-content: flex-start;
     margin: 2.5rem 2rem;
 }
 
@@ -303,6 +304,10 @@ h1 {
 
 .m_b_2 {
     margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.font_weight {
     font-weight: bold;
 }
 
@@ -359,6 +364,16 @@ h1 {
 .m_b_4 {
     margin-bottom: 12rem;
 }
+
+.m_b_5 {
+    margin-bottom: 5.5rem;
+}
+
+.m_b_6 {
+    margin-bottom: 7rem;
+}
+
+
 
 .flex_partner {
     display: flex;
