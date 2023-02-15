@@ -70,6 +70,25 @@ header {
     text-decoration: none;
     color: var(--dark_color);
 }
+.a_nav {
+    display: inline-block;
+    color: var(--dark_color);
+    text-decoration: none;
+}
+
+.a_nav::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--dark_color);
+    transition: width .3s;
+}
+
+.a_nav:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
 
 .img_logo {
     width: 100%;
@@ -84,9 +103,9 @@ header {
     background-color: var(--hover_color) ;
 }
 
-.li_item_h1:hover {
+/* .li_item_h1:hover {
     border-bottom: 3px solid grey;
-}
+} */
 
 .li_item_h2:hover {
     background-color: var(--hover_btn);
