@@ -17,6 +17,7 @@
     --hover_btn: #0057e5;
     --grey_label: #dfdfe1;
     --grey_table: #dfdfe1;
+    --grey_planes: #e9e9ea;
     --link: #5956f4;
     --clients_1: #a2d39b;
     --clients_2: #61082b;
@@ -102,10 +103,6 @@ header {
 .li_item_h:hover {
     background-color: var(--hover_color) ;
 }
-
-/* .li_item_h1:hover {
-    border-bottom: 3px solid grey;
-} */
 
 .li_item_h2:hover {
     background-color: var(--hover_btn);
@@ -283,7 +280,7 @@ h1 {
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid var(--grey_planes);
 }
 
 .flex_column {
@@ -293,7 +290,7 @@ h1 {
 }
 
 .border {
-    border: 2px solid grey;
+    border: 2px solid var(--grey_planes);
 }
 
 .fa-solid {
@@ -326,6 +323,41 @@ h1 {
     flex-flow: row nowrap;
     align-content: flex-start;
     align-items: flex-start;
+}
+
+.m_b_3 {
+    margin-bottom: 3.5rem;
+}
+
+.btn_planes {
+    background-color: var(--btn_color);
+    border-style: none;
+    padding: 15px 26px;
+    margin-bottom: 2.5rem;
+}
+
+.btn_planes:hover {
+    background-color: var(--hover_btn);
+}
+
+.a_item_2 {
+    text-decoration: none;
+    color: var(--bg_color);
+}
+
+.line_2 {
+    width: 3rem;
+    height: 4px;
+    border-bottom: 2px solid grey;
+    margin-bottom: 3rem;
+}
+
+.fa-check {
+    color: var(--btn_color);
+}
+
+.m_b_4 {
+    margin-bottom: 12rem;
 }
 
 .flex_partner {
