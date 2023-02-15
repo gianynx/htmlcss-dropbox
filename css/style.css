@@ -486,6 +486,52 @@ h1 {
     border-top: 2px solid grey;
 }
 
+/*CSS summary*/
+details {
+    width: 100%;
+    margin: 0 auto;
+    background: var(--bg_color);
+    margin: 2.5rem 2rem 3rem 0;
+    overflow: hidden;
+}
+
+summary {
+    padding: 1rem;
+    display: block;
+    background-color: var(--bg_color);
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--dark_color);
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+    color: var(--dark_color);
+}
+
+details[open]>summary:before {
+    transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details>ul {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
 /*CSS footer*/
 
 .flex_footer {
