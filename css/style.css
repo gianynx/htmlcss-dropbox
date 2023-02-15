@@ -354,6 +354,10 @@ h1 {
     color: var(--link);
 }
 
+.link_clients:hover {
+    color: blue;
+}
+
 .flex_clients {
     display: flex;
     flex-direction: row;
@@ -417,7 +421,6 @@ h1 {
     width: 6rem;
     height: 4px;
     border-bottom: 2px solid grey;
-    margin-top: ;
 }
 
 .font_square_5 {
