@@ -14,7 +14,7 @@
     --dark_color: #000000;
     --b_b_h: #e7e1d9;
     --hover_color: #f2eee8;
-    --hover_btn: #0057e5;
+    --hover_btn: #081753;
     --hover_client: #d2e9ce;
     --grey_label: #dfdfe1;
     --grey_table: #dfdfe1;
@@ -413,6 +413,10 @@ h1 {
     border-style: none;
     padding: 15px 40px;
     margin-bottom: 2.5rem;
+}
+
+.btn_planes_2:hover {
+    background-color: var(--hover_btn);
 }
 
 /*CSS #partner*/
