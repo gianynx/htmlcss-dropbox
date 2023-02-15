@@ -457,10 +457,6 @@ h1 {
     width: 60%;
 }
 
-.free_trial_right {
-    width: 33%;
-}
-
 #h2_free_trial {
     color: var(--h2_free_trial);
 }
