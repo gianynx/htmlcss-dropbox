@@ -523,9 +523,8 @@ summary {
 }
 
 summary:before {
-    content: '';
+    content: '\27A3';
     border-width: .4rem;
-    border-style: solid;
     border-color: transparent transparent transparent var(--dark_color);
     position: absolute;
     top: 1.3rem;
