@@ -42,7 +42,7 @@ body {
 }
 
 .grid {
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 /*CSS header*/
@@ -755,4 +755,21 @@ select {
     color: var(--bg_color);
     border-style: none;
     margin-top: 2rem;
+}
+
+.flex_footer_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    margin-top: 2rem;
+    color: var(--bg_color);
+}
+
+.brand_icon {
+    width: 3.5rem;
+    font-size: 30px;
 }
