@@ -373,7 +373,49 @@ h1 {
     margin-bottom: 7rem;
 }
 
+.flex_team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.planes_2_top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.flex_team_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team_left {
+    width: 70%;
+    padding: 35px 30px 35px;
+}
+
+.team_right {
+    padding: 35px 30px 35px;
+}
+
+.flex_team_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.planes_2_top {
+    border-bottom: none;
+}
+
+.btn_planes_2 {
+    background-color: var(--btn_color);
+    border-style: none;
+    padding: 15px 40px;
+    margin-bottom: 2.5rem;
+}
 
 .flex_partner {
     display: flex;
