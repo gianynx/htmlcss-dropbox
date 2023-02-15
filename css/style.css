@@ -476,6 +476,16 @@ h1 {
     background-color: var(--hover_color);
 }
 
+.p_t {
+    padding-top: 9rem;
+}
+
+.faq {
+    width: 100%;
+    height: 8.5rem;
+    border-top: 2px solid grey;
+}
+
 /*CSS footer*/
 
 .flex_footer {
