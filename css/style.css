@@ -321,8 +321,11 @@ h1 {
     margin-top: 2rem;
 }
 
-.display {
-    display: inline-block;
+.flex_icon {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 
 .flex_partner {
