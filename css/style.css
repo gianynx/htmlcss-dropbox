@@ -741,7 +741,7 @@ footer {
 }
 
 .div_fb {
-    width: 8rem;
+    width: 100%;
     height: 5rem;
     border-top: 2px solid var(--bg_color);
 }
@@ -755,13 +755,6 @@ select {
     color: var(--bg_color);
     border-style: none;
     margin-top: 2rem;
-}
-
-.flex_footer_bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .icons {
