@@ -120,6 +120,8 @@ header {
 
 /*CSS main*/
 
+/*CSS #hero*/
+
 .container {
     max-width: 75rem;
     margin: 0 auto;
@@ -197,6 +199,8 @@ h1 {
     margin-bottom: 10rem;
 }
 
+/*CSS #planes*/
+
 .font_h2 {
     font-size: 45px;
 }
@@ -214,14 +218,12 @@ h1 {
     user-select: none;
 }
 
-/* Hide the browser's default radio button */
 .billing input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
 
-/* Create a custom radio button */
 .checkmark {
     position: absolute;
     top: 0;
@@ -233,29 +235,24 @@ h1 {
     border: 2px solid var(--grey_label);
 }
 
-/* On mouse-over, add a grey background color */
 .billing:hover input~.checkmark {
     background-color: var(--bg_color);
 }
 
-/* When the radio button is checked, add a blue background */
 .billing input:checked~.checkmark {
     border: 6.5px solid var(--btn_color);
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
 .billing:after {
     content: "";
     position: absolute;
     display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
 .billing input:checked~.checkmark:after {
     display: block;
 }
 
-/* Style the indicator (dot/circle) */
 .billing .checkmark:after {
     top: 9px;
     left: 9px;
@@ -417,6 +414,8 @@ h1 {
     margin-bottom: 2.5rem;
 }
 
+/*CSS #partner*/
+
 .flex_partner {
     display: flex;
     flex-flow: row wrap;
@@ -470,6 +469,8 @@ h1 {
     font-size: 42px;
 }
 
+/*CSS #features*/
+
 .flex_features {
     display: flex;
     flex-flow: row wrap;
@@ -492,6 +493,8 @@ h1 {
 .m_t_5 {
     margin-top: 4rem;
 }
+
+/*CSS #clients*/
 
 .p_b {
     padding-bottom: 5rem;
@@ -590,6 +593,8 @@ h1 {
     background-color: var(--clients_9);
 }
 
+/*CSS #free_trial*/
+
 #free_trial {
     background-color: var(--clients_7);
     padding-top: 10rem;
@@ -620,6 +625,8 @@ h1 {
 .btn_free:hover {
     background-color: var(--hover_color);
 }
+
+/*CSS #FAQ*/
 
 .p_t {
     padding-top: 9rem;
